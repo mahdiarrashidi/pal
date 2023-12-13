@@ -3,13 +3,13 @@ Profit and Loss WebApp_python
 
 # Encrypted Credentials Generation
 
-1. Run the Python script to generate encryption key file (`key.key`) and credential.env file.
+1. Run the Python script to generate encryption key (`key.key`) and credential.env files:
 
     ```
     python3 
     ```
 
-2. The code.
+2. The code:
 
     ```python
     from cryptography.fernet import Fernet
@@ -38,7 +38,7 @@ Profit and Loss WebApp_python
     ```
 
 3. Update the credential.env file:
-4. ```
+   ```
     DB_HOST=localhost
     DB_USER=admin
     DB_PASSWORD=gAAAAABleZffY-r0BKYoNwmilb0_lj1Um3hSZVDs5lNWg_w-sDvGQriaTnA580azOwSxHUYZL1oq-Ps3a69_DoLH3cylYrzBaA==
