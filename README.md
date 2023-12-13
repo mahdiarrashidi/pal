@@ -4,8 +4,8 @@ Profit and Loss WebApp_python
 
 To create the Encrypted credentials:
 python3
->>> from cryptography.fernet import Fernet
->>> import os
+#from cryptography.fernet import Fernet
+#import os
 
 >>> def generate_key():
         return Fernet.generate_key()
@@ -15,9 +15,9 @@ python3
         cipher_text = cipher_suite.encrypt(password.encode())
         return cipher_text
 
-    #Generate a new key and save it in a file
->>> key = generate_key()
->>> with open('key.key', 'wb') as key_file:
+ #   #Generate a new key and save it in a file
+#key = generate_key()
+#with open('key.key', 'wb') as key_file:
         key_file.write(key)
 
     #Create the encrypted password
