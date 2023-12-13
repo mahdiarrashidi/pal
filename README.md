@@ -3,12 +3,12 @@ Profit and Loss WebApp_python
 
 
 ## To create the Encrypted credentials:
-'python3'
-#from cryptography.fernet import Fernet
-#import os
+`python3`
+>>> from cryptography.fernet import Fernet
+>>> import os
 
 >>> def generate_key():
-        return Fernet.generate_key()
+>>>         return Fernet.generate_key()
 
 >>> def encrypt_password(password, key):
         cipher_suite = Fernet(key)
